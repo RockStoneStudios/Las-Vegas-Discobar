@@ -18,7 +18,7 @@ export default function Navbar() {
   const enlaces = [
     { name: 'Inicio', path: '/' },
     { name: 'Nosotros', path: '/nosotros' },
-    { name: 'Tu Canción', path: '/programar' },
+    { name: 'Tu Canción', path: '/tu-cancion' },
     { name: 'Juegos', path: '/juegos' },
   ];
 

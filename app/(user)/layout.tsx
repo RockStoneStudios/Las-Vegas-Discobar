@@ -13,7 +13,7 @@ export default function UserLayout({ children }: { children: React.ReactNode }) 
       {/* 🔥 CONTENIDO CON PADDING APLICADO CORRECTAMENTE */}
       <main className="flex-1 z-10 relative w-full">
         {/* EL PADDING VA AQUÍ, DENTRO DEL MAIN */}
-        <div className="w-full px-6 sm:px-10 md:px-16 lg:px-20 xl:px-28 py-6 md:py-10">
+        <div className="w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 py-4 sm:py-6 md:py-10 pb-28 md:pb-10">
           <div className="max-w-7xl mx-auto w-full">
             {children}
           </div>

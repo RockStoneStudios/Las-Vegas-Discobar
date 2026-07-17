@@ -61,30 +61,3 @@ input {
   90% { opacity: 1; }
   100% { transform: translateY(-115vh) translateX(var(--drift, 20px)); opacity: 0; }
 }
-
-/* 🔥 PARCHE URGENTE - MARGEN IZQUIERDO PARA NOSOTROS */
-#about {
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
-}
-
-@media (min-width: 640px) {
-  #about {
-    padding-left: 2.5rem !important;
-    padding-right: 2.5rem !important;
-  }
-}
-
-@media (min-width: 768px) {
-  #about {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
-  }
-}
-
-@media (min-width: 1024px) {
-  #about {
-    padding-left: 5rem !important;
-    padding-right: 5rem !important;
-  }
-}
